@@ -25,7 +25,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.8",
     "siteFonts": [],
-    "uniqCompNum": 10,
+    "uniqCompNum": 14,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -45,88 +45,6 @@
       },
       "components": [
         {
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "showBullets": false,
-            "bgColor": "#fff",
-            "timeout": "2",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1.jpg",
-                "contentAlign": "center",
-                "active": true,
-                "showButtons": true,
-                "showText": false,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "title": "DESIGN &amp; LOGOMARCA<br>",
-                "overlay": true,
-                "overlayOpacity": "0.3",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#form1-4\" data-toolbar=\"-mbrBtnMove\">QUERO</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
-                "contentAlign": "center",
-                "active": false,
-                "showButtons": true,
-                "showText": false,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "title": "INTERNET &amp; REDES SOCIAIS",
-                "overlay": true,
-                "overlayOpacity": "0.3",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#form1-4\" data-toolbar=\"-mbrBtnMove\">QUERO</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1271.jpg",
-                "contentAlign": "center",
-                "active": false,
-                "showButtons": true,
-                "showText": false,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "title": "PROJETOS &nbsp;EDITORIAIS",
-                "overlay": true,
-                "overlayOpacity": "0.3",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#form1-4\" data-toolbar=\"-mbrBtnMove\">QUERO</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1920x960.jpg",
-                "contentAlign": "center",
-                "active": false,
-                "showButtons": true,
-                "showText": false,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "title": "PRODUÇÃO DE CONTEÚDO",
-                "overlay": true,
-                "overlayOpacity": "0.2",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#form1-4\" data-toolbar=\"-mbrBtnMove\">QUERO</a>"
-              }
-            ]
-          },
-          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrow-left.png\">",
-          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrow-right.png\">",
-          "articleLayout": false,
-          "alias": "colorm/components",
-          "_tags": [
-            "Layout"
-          ],
-          "_name": "slider",
-          "_anchor": "slider-2"
-        },
-        {
           "_styles": {
             ".mbr-section-subtitle": {
               "text-transform": "uppercase"
@@ -138,7 +56,7 @@
             "showTitle": true,
             "showText": false,
             "paddingTop": "3",
-            "paddingBottom": "4",
+            "paddingBottom": "3",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/06.jpg",
             "parallax": false,
@@ -188,6 +106,44 @@
           ],
           "_name": "form1",
           "_anchor": "form1-4"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": "1",
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "#000000",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/full.png",
+                "thumb": "@PROJECT_PATH@/assets/images/full-800x289.png",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Layout"
+          ],
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">",
+          "allItem": "ALL",
+          "_name": "gallery2",
+          "_anchor": "gallery2-d"
         }
       ]
     }
