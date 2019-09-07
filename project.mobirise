@@ -55,7 +55,7 @@
             "timeout": "2",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1.jpg",
                 "contentAlign": "center",
                 "active": true,
                 "showButtons": true,
