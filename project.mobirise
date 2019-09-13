@@ -68,8 +68,8 @@
               "color": "#4e6dcc"
             },
             ".card-img": {
-              "width": "200px",
-              "height": "200px",
+              "width": "150px",
+              "height": "150px",
               "margin-left": "auto",
               "margin-right": "auto",
               "border-radius": "50%",
@@ -106,7 +106,9 @@
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         }
       ]
     }
